@@ -145,12 +145,18 @@
          </div>
        </div>
    </div>
-   <div class="last-background"><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+   <div class="last-background">
+    <h1>Made By Anika Gupta</h1>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br></div>
 </section>
 <script>
   var name = prompt("What is your name to welcome you?")
-document.getElementById('name').innerHTML = name
+if (!name){
+  document.getElementById('name').innerHTML = "User";
+}else{
+  document.getElementById('name').innerHTML = name;
+}
 </script>
 </body>
 </html>

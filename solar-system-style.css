@@ -105,3 +105,12 @@ h4{
   font-size: 35px;
   font-family: 'Lily Script One';
 }
+.last-background h1{
+  color: white;
+  font-family: 'Lily Script One';
+  text-align: center;
+  font-size: 40px;
+  text-decoration-line: underline;
+  top: 50%;
+  text-shadow: blue 2px 2px 3px;
+}
