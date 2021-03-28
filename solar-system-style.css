@@ -5,6 +5,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+section{
+  background-image: url(images/star-background.jpg);
+}
 /**background editing**/
 
 #home #background{
@@ -25,16 +28,6 @@
 }
 
 /*Extra editing*/
-
-#our-planets h1{
-    font-size: 40px;
-    font-family: fantasy;
-    background-color: darkblue;
-    color: darkgray;
-    text-align: center;
-    text-decoration: underline;
-    position: fixed;
-}
 
 img{
     opacity: 1;
@@ -102,6 +95,8 @@ img{
 }
 .last-background{
     background-image: url(images/last-background.jpg);
+    width: 100%;
+    height: 100vh;
 }
 body{
     background-color: black;
@@ -109,5 +104,4 @@ body{
 h4{
   font-size: 35px;
   font-family: 'Lily Script One';
-
 }
